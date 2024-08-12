@@ -71,5 +71,5 @@ function firstSection(e){
 
     
 }
-
-firstSection(3)
+const answer = prompt("Place a number between 0 to 3")
+firstSection(answer)
