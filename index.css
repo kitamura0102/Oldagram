@@ -1,84 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 
-html, body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Source Sans 3", sans-serif;
-    color: #252525;
-
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans 3", sans-serif;
+  color: #252525;
 }
 header {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px;
 }
 main {
-    border-top: 2px solid #C6C6C6;
-    padding-top: 20px;
+  border-top: 2px solid #c6c6c6;
+  padding-top: 20px;
 }
 
-h1, p {
-    margin: 0;
+h1,
+p {
+  margin: 0;
 }
-h1, h3, h2 {
-    font-weight: 900;
+h1,
+h3,
+h2 {
+  font-weight: 900;
 }
 h1 {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 p {
-    font-size: 1.1rem;
-    padding: 15px 0;
+  font-size: 1.1rem;
+  padding: 15px 0;
 }
 h3 {
-    display: inline;
+  display: inline;
 }
 h2 {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 #comment {
-    display: inline;
-    font-weight: 400;
+  display: inline;
+  font-weight: 400;
 }
 
 .logo {
-    height: 100px;
+  height: 100px;
 }
 .user-avatar {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    margin-top: 20px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-top: 20px;
 }
 .container {
-    width: 400px;
-    margin: 0 auto;
-    background-color: #FFF;
+  width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
 }
 .user img {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    float: left;
-    margin-right: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
 }
 .user {
-    padding: 5px 0 15px 15px;
+  padding: 5px 0 15px 15px;
 }
 .imagen img {
-    width: 100%;
+  width: 100%;
 }
 .likes-coments {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 .coments-section img {
-    height: 30px;
-    width: 30px;
+  height: 30px;
+  width: 30px;
 }
 .coments-section button {
-    border: none;
-    background-color: transparent;
-    margin: 10px 0 0 5px;
-    cursor: pointer;
+  border: none;
+  background-color: transparent;
+  margin: 10px 0 0 5px;
+  cursor: pointer;
 }
